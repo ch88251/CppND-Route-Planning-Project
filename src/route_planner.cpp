@@ -3,6 +3,15 @@
 
 using std::cout;
 
+/**
+ * @brief Construct a new Route Planner:: Route Planner object
+ * 
+ * @param model A RouteModel used for rendering a map with a plotted route.
+ * @param start_x The x-coordinate for finding the closest starting point on the map.
+ * @param start_y The y-coordinate for finding the closest starting point on the map.
+ * @param end_x The x-coordinate for finding the closest ending point on the map.
+ * @param end_y The y-coordinate for finding the closest ending point on the map.
+ */
 RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, float end_x, float end_y) : m_Model(model) {
   // Convert inputs to percentage:
   start_x *= 0.01;
@@ -14,10 +23,24 @@ RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, floa
   end_node = &m_Model.FindClosestNode(end_x, end_y);
 }
 
+/**
+ * @brief Calculates the h-value which is the distance from a proposed next 
+ *        move on the map to the final destination. This is a key component
+ *        of the A*Search algorithm. By evaluating the h-value of surrounding
+ *        nodes we can determine which direction we should move to next.
+ * 
+ * @param node A RouteModel::Node which represents a surrounding node on the map.
+ * @return float The calculated h-value.
+ */
 float RoutePlanner::CalculateHValue(RouteModel::Node const *node) {
   return node->distance(*end_node);
 }
 
+/**
+ * @brief 
+ * 
+ * @param current_node 
+ */
 void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
   current_node->FindNeighbors();
   for (auto neighbor : current_node->neighbors) {
