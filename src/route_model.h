@@ -1,5 +1,4 @@
-#ifndef ROUTE_MODEL_H
-#define ROUTE_MODEL_H
+#pragma once
 
 #include <limits>
 #include <cmath>
@@ -43,5 +42,3 @@ class RouteModel : public Model {
     std::vector<Node> m_Nodes;
 
 };
-
-#endif

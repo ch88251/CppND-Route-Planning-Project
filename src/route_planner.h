@@ -1,5 +1,4 @@
-#ifndef ROUTE_PLANNER_H
-#define ROUTE_PLANNER_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -29,5 +28,3 @@ class RoutePlanner {
     float distance = 0.0f;
     RouteModel &m_Model;
 };
-
-#endif
