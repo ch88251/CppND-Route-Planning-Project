@@ -26,9 +26,9 @@ git clone https://github.com/ch88251/Route-Planning-Project.git --recurse-submod
   * This library must be built in a place where CMake `find_package` will be able to find it
  
 
-## Compiling and Running
+## Building, Testing and Running
 
-### Compiling
+### Building
 To compile the project, first, create a `build` directory and change to that directory:
 ```
 mkdir build && cd build
@@ -38,6 +38,14 @@ From within the `build` directory, then run `cmake` and `make` as follows:
 cmake ..
 make
 ```
+
+### Testing
+
+The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
+```
+./test
+```
+
 ### Running
 The executable will be placed in the `build` directory. From within `build`, you can run the executable as follows:
 ```
@@ -46,13 +54,6 @@ The executable will be placed in the `build` directory. From within `build`, you
 Or to specify a map file:
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
-```
-
-## Testing
-
-The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
-```
-./test
 ```
 
 ## Demonstration
