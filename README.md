@@ -1,6 +1,8 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+The route planning project demonstrates the use of C++ with Open Street Map (OSM). It uses 
+the A* Search algorithm to plot the shortest path on a map using starting and ending geo 
+coordinates.
 
 <img src="map.png" width="600" height="450" />
 
