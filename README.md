@@ -55,6 +55,8 @@ Or to specify a map file:
 
 https://github.com/user-attachments/assets/2e57458f-4266-4919-9d18-f19f03a8a3f4
 
-## Open Street Maps References
+## References
 
 https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap
+
+https://en.wikipedia.org/wiki/A*_search_algorithm
