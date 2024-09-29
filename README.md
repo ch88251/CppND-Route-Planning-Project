@@ -39,7 +39,7 @@ cmake ..
 make
 ```
 ### Running
-The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
+The executable will be placed in the `build` directory. From within `build`, you can run the executable as follows:
 ```
 ./OSM_A_star_search
 ```
@@ -58,3 +58,7 @@ The testing executable is also placed in the `build` directory. From within `bui
 ## Demonstration
 
 https://github.com/user-attachments/assets/2e57458f-4266-4919-9d18-f19f03a8a3f4
+
+## Open Street Maps References
+
+https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap
