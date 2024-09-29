@@ -1,7 +1,7 @@
 # Route Planning Project
 
 The route planning project demonstrates the use of C++ with Open Street Map (OSM). It uses 
-the A* Search algorithm to plot the shortest path on a map using starting and ending geo 
+the A* Search algorithm to plot the shortest path on a map using starting and ending 
 coordinates.
 
 ## Cloning
