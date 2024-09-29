@@ -1,29 +1,18 @@
-
-
-https://github.com/user-attachments/assets/2e57458f-4266-4919-9d18-f19f03a8a3f4
-
 # Route Planning Project
 
 The route planning project demonstrates the use of C++ with Open Street Map (OSM). It uses 
 the A* Search algorithm to plot the shortest path on a map using starting and ending geo 
 coordinates.
 
-<img src="map.png" width="600" height="450" />
-
 ## Cloning
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/ch88251/Route-Planning-Project.git --recurse-submodules
 ```
 
-## Dependencies for Running Locally
-* cmake >= 3.11.3
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
+## Dependencies
+* cmake [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
   * Linux: make is installed by default on most Linux distros
   * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
@@ -66,3 +55,6 @@ The testing executable is also placed in the `build` directory. From within `bui
 ./test
 ```
 
+## Demonstration
+
+https://github.com/user-attachments/assets/2e57458f-4266-4919-9d18-f19f03a8a3f4
