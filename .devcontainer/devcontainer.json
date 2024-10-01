@@ -1,0 +1,8 @@
+{
+	"name": "Route Planner",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	}
+
+}
