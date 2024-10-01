@@ -1,8 +1,6 @@
 # Route Planning Project
 
-The route planning project demonstrates the use of C++ with Open Street Map (OSM). It uses 
-the A* Search algorithm to plot the shortest path on a map using starting and ending 
-coordinates.
+The route planning project demonstrates the use of C++ with Open Street Map (OSM). It uses the A* Search algorithm to plot the shortest path on a map using starting and ending coordinates.
 
 ## Cloning
 
@@ -11,7 +9,17 @@ When cloning this project, be sure to use the `--recurse-submodules` flag. Using
 git clone https://github.com/ch88251/Route-Planning-Project.git --recurse-submodules
 ```
 
-## Dependencies
+## Project Setup
+
+### VSCode Development Container
+
+This repository contains a VSCode development container. If you're using VSCode as 
+your code editor, you can simply launch VSCode and then open the project in the container. If you're not familiar with how this works you should read this:
+
+https://code.visualstudio.com/docs/devcontainers/containers
+
+
+### Manual Setup
 
 You'll need the following build tools and libraries installed:
 
