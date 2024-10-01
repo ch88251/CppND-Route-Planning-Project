@@ -3,6 +3,7 @@
 	"build": {
 		"context": "..",
 		"dockerfile": "../Dockerfile"
-	}
+	},
+	"workspaceFolder": "/home/develop"
 
 }
